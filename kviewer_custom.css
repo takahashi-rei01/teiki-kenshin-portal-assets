@@ -153,7 +153,7 @@ body {
 
 .hc-flow-box li {
   counter-increment: hc-flow;
-  min-height: 92px;
+  min-height: 0;
   padding: 16px 16px 16px 54px;
   position: relative;
   background: #eef3f8;
@@ -188,15 +188,15 @@ body {
 
 .hc-flow-main {
   display: block;
-  margin-top: 14px;
+  margin-top: 10px;
 }
 
 .hc-flow-sub {
   display: block;
-  margin-top: 12px;
+  margin-top: 8px;
   color: var(--hc-muted);
   font-size: 13px;
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 .hc-note {
