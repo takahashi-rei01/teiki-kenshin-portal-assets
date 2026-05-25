@@ -186,6 +186,19 @@ body {
   font-size: 15px;
 }
 
+.hc-flow-main {
+  display: block;
+  margin-top: 14px;
+}
+
+.hc-flow-sub {
+  display: block;
+  margin-top: 12px;
+  color: var(--hc-muted);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
 .hc-note {
   margin: 18px 0 12px;
   color: var(--hc-muted);
