@@ -203,11 +203,13 @@ body {
   font-size: 15px;
   font-weight: 700;
   line-height: 1.6;
+  text-align: left;
 }
 
 .hc-flow-main {
   display: block;
   margin-top: 8px !important;
+  text-align: left;
 }
 
 .hc-flow-sub {
@@ -216,6 +218,7 @@ body {
   color: var(--hc-muted);
   font-size: 13px;
   line-height: 1.7;
+  text-align: left;
 }
 
 .hc-note {
