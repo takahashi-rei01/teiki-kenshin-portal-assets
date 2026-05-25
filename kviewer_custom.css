@@ -130,6 +130,7 @@ body {
   border: 1px solid var(--hc-line);
   border-radius: 8px;
   box-shadow: 0 8px 24px rgba(36, 48, 64, 0.08);
+  text-align: center;
   box-sizing: border-box;
 }
 
@@ -160,6 +161,7 @@ body {
   color: var(--hc-text);
   font-size: 14px;
   line-height: 1.7;
+  text-align: left;
   box-sizing: border-box;
 }
 
