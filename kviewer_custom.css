@@ -144,6 +144,7 @@ body {
 .hc-flow-box ol {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
   gap: 12px;
   margin: 0;
   padding: 0;
@@ -153,7 +154,9 @@ body {
 
 .hc-flow-box li {
   counter-increment: hc-flow;
-  min-height: 0;
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
   padding: 16px 16px 16px 54px;
   position: relative;
   background: #eef3f8;
@@ -188,12 +191,12 @@ body {
 
 .hc-flow-main {
   display: block;
-  margin-top: 10px;
+  margin-top: 10px !important;
 }
 
 .hc-flow-sub {
   display: block;
-  margin-top: 1em;
+  margin-top: 1em !important;
   color: var(--hc-muted);
   font-size: 13px;
   line-height: 1.7;
