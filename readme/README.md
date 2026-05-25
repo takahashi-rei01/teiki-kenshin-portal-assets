@@ -53,6 +53,10 @@ kViewerの画面に表示されているリンクを探して、提出ポータ�
   <a class="hc-manual-button" href="PDFのURL" target="_blank" rel="noopener noreferrer">
     提出フォーム入力マニュアルを開く
   </a>
+
+  <p class="hc-contact-note">
+    FAQを確認しても解決しない場合は、総務部 担当の髙橋までご連絡ください。
+  </p>
 </div>
 ```
 
