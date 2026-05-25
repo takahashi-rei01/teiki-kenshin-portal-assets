@@ -144,7 +144,7 @@ body {
 .hc-flow-box ol,
 .hc-flow-steps {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   align-items: start;
   gap: 12px;
   margin: 0 !important;
