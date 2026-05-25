@@ -193,7 +193,7 @@ body {
 
 .hc-flow-sub {
   display: block;
-  margin-top: 8px;
+  margin-top: 1em;
   color: var(--hc-muted);
   font-size: 13px;
   line-height: 1.7;
