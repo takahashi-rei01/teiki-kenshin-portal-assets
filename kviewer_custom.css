@@ -195,11 +195,11 @@ body {
 
 .hc-contact-note {
   margin: 16px 0 0;
-  padding: 12px 14px;
-  background: #f8fafc;
-  border: 1px solid var(--hc-line);
-  border-radius: 8px;
-  color: var(--hc-text);
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: var(--hc-muted);
   font-size: 14px;
   line-height: 1.8;
 }
