@@ -257,14 +257,14 @@ body {
   border: 1px solid var(--hc-line) !important;
   border-radius: 8px !important;
   box-shadow: 0 8px 22px rgba(36, 48, 64, 0.08) !important;
-  text-align: left !important;
+  text-align: center !important;
   box-sizing: border-box;
 }
 
 .hc-portal-card .content,
 .hc-portal-card .description,
 .hc-portal-card .text {
-  text-align: left !important;
+  text-align: center !important;
 }
 
 .hc-card-description {
@@ -273,6 +273,7 @@ body {
   color: var(--hc-muted);
   font-size: 14px;
   line-height: 1.7;
+  text-align: center;
 }
 
 a[href*="hc-receipt"],
