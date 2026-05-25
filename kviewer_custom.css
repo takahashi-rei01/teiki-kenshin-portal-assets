@@ -156,7 +156,10 @@ body {
 .hc-flow-box li,
 .hc-flow-item {
   counter-increment: hc-flow;
-  display: block !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
   height: auto !important;
   min-height: 0 !important;
   margin: 0 !important;
@@ -204,12 +207,12 @@ body {
 
 .hc-flow-main {
   display: block;
-  margin-top: 10px !important;
+  margin-top: 8px !important;
 }
 
 .hc-flow-sub {
   display: block;
-  margin-top: 1em !important;
+  margin-top: 12px !important;
   color: var(--hc-muted);
   font-size: 13px;
   line-height: 1.7;
