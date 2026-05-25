@@ -141,7 +141,8 @@ body {
   line-height: 1.4;
 }
 
-.hc-flow-box ol {
+.hc-flow-box ol,
+.hc-flow-steps {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: start;
@@ -152,7 +153,8 @@ body {
   counter-reset: hc-flow;
 }
 
-.hc-flow-box li {
+.hc-flow-box li,
+.hc-flow-item {
   counter-increment: hc-flow;
   display: block !important;
   height: auto !important;
@@ -169,11 +171,13 @@ body {
   box-sizing: border-box;
 }
 
-.hc-flow-box li > * {
+.hc-flow-box li > *,
+.hc-flow-item > * {
   margin-bottom: 0 !important;
 }
 
-.hc-flow-box li::before {
+.hc-flow-box li::before,
+.hc-flow-item::before {
   content: counter(hc-flow);
   width: 28px;
   height: 28px;
@@ -190,9 +194,11 @@ body {
   font-weight: 700;
 }
 
-.hc-flow-box strong {
+.hc-flow-box strong,
+.hc-flow-title {
   display: block;
   font-size: 15px;
+  font-weight: 700;
   line-height: 1.6;
 }
 
@@ -377,11 +383,13 @@ a.hc-btn:focus {
     font-size: 21px;
   }
 
-  .hc-flow-box ol {
+  .hc-flow-box ol,
+  .hc-flow-steps {
     grid-template-columns: 1fr;
   }
 
-  .hc-flow-box li {
+  .hc-flow-box li,
+  .hc-flow-item {
     min-height: 0;
   }
 
