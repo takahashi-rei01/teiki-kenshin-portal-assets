@@ -146,9 +146,9 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: start;
   gap: 12px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
   counter-reset: hc-flow;
 }
 
@@ -157,7 +157,8 @@ body {
   display: block !important;
   height: auto !important;
   min-height: 0 !important;
-  padding: 16px 16px 16px 54px;
+  margin: 0 !important;
+  padding: 18px 18px 18px 56px !important;
   position: relative;
   background: #eef3f8;
   border-radius: 8px;
@@ -166,6 +167,10 @@ body {
   line-height: 1.7;
   text-align: left;
   box-sizing: border-box;
+}
+
+.hc-flow-box li > * {
+  margin-bottom: 0 !important;
 }
 
 .hc-flow-box li::before {
@@ -186,7 +191,9 @@ body {
 }
 
 .hc-flow-box strong {
+  display: block;
   font-size: 15px;
+  line-height: 1.6;
 }
 
 .hc-flow-main {
